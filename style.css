@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: #1abc9c;
+}
+.pper{
+    width: 380px;
+    background: #fff;
+    border-radius: 5px 5px 0 0;
+}
+.pper .title{
+    line-height: 80px;
+    text-align: center;
+    background: #16a085;
+    padding-left: 22px;
+
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+.pper  form{
+    padding: 30px 25px 25px 25px;
+
+}
+.pper  form .row{
+    height: 45px;
+    
+      margin-bottom: 14px;
+    position: relative;
+
+}
+.pper  form .row input{
+    height: 100%;
+    width: 100%;
+    padding-left: 60px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+}
+.pper  form .row i{
+    position: absolute;
+    width: 45px;
+    height: 100%;
+    color: #fff;
+    font-size: 20px;
+    background: #16a085;
+    border: 1px solid #16a085;
+    border-radius: 5px 0 0 5px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pper  form .but input{
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 0px;
+    background: #16a085;
+    border: 1px solid #16a085;
+    cursor: pointer;
+    transition: 0.5s;
+}
+form .but input:hover{
+    background: #12876f;
+}
+.pper  form .pass{
+margin: -10px 0 25px 12;
+padding-bottom: 20px;
+}
+.pper  form .pass a{
+    color:#16a085 ;
+    font-size: 16px;
+    text-decoration: none;
+}
+.pper  form .pass a:hover{
+    text-decoration: underline;
+}
+.pper  form .singup{
+   text-align: center;
+   margin-top: 20px;
+    }
+    .pper  form .singup a{
+        color:#16a085 ;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    form .singup a:hover{
+        text-decoration: underline;
+    }
